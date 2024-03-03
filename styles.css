@@ -1,0 +1,99 @@
+/* Definições gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.actions a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Estilo dos produtos */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+/* Estilo dos formulários */
+.login-container,
+.signup-container,
+.add-product-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Estilo das mensagens de erro */
+.error {
+    color: red;
+}
+
+/* Estilo dos comentários */
+.comments {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.comments p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.comments p .time {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Estilo do botão de envio */
+.product form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.product form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.product form input[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Estilo do botão de copiar */
+.copy-button {
+    margin-left: 10px;
+}
